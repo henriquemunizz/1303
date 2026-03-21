@@ -7,5 +7,7 @@ public class Produto {
     public int quantidade;
     public boolean emEstoque;
     public float peso;
+
+    public Categoria categoria;
     }
 
