@@ -18,6 +18,8 @@ public class Terminal {
         Produto produto = new Produto();
         Categoria categoria = new Categoria();
 
+        produto.categoria = categoria;
+
         System.out.println("Nome da Categoria: ");
         produto.categoria.nome = leitor.next() + leitor.nextLine();
 
@@ -40,12 +42,19 @@ public class Terminal {
         produto.peso = leitor.nextFloat();
 
         System.out.println("\n--- DADOS PRODUTO ---");
+        System.out.println("Categoria" + produto.categoria.nome);
+        System.out.println("Descrição da Categoria" + produto.categoria.descricao);
         System.out.println("Nome: " + produto.nome);
         System.out.println("Preço: " + produto.preco);
         System.out.println("Quantidade: " + produto.quantidade);
         System.out.println("Em estoque: " + produto.emEstoque);
         System.out.println("Peso: " + produto.peso);
-        System.out.println("Categoria" + produto.categoria.nome);
-        System.out.println("Descrição da Categoria" + produto.categoria.descricao);
+
+        System.out.println("Quantidades compradas: ");
+        double valorFinal = produto.calcularDesconto(leitor.nextInt());
+
+        System.out.println("Preço Final: " + valorFinal);
+
+        leitor.close();
     }
 }
