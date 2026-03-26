@@ -12,15 +12,14 @@ public class Produto {
     public int quantidadeComprada;
 
     public double calcularDesconto(int quantidadeComprada) {
-        double valorFinal = 0;
+        double valorFinal = preco * quantidadeComprada;
         if (quantidadeComprada < 5) {
             valorFinal = preco * quantidadeComprada;
         }else if (quantidadeComprada >= 5 && quantidadeComprada < 10) {
-            valorFinal = preco * quantidadeComprada - preco * quantidadeComprada * 0.15;
+            valorFinal = valorFinal * 0.85;
         } else if (quantidadeComprada >= 10) {
-            valorFinal = preco * quantidadeComprada - preco * quantidadeComprada * 0.20;
+            valorFinal = valorFinal * 0.80;
         }
-
 
         return valorFinal;
     }
