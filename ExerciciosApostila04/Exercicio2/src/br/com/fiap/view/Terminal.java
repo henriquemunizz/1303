@@ -24,7 +24,7 @@ public class Terminal {
         conta.saldo = entrada.nextDouble();
 
         System.out.println("Digite o nome do titular: ");
-        conta.titular.nome = entrada.nextLine();
+        conta.titular.nome = entrada.nextLine() + entrada.next();
 
         System.out.println("Digite o CPF do titular: ");
         conta.titular.cpf = entrada.next();
@@ -62,7 +62,7 @@ public class Terminal {
 
             if (funcao == 1) {
 
-                System.out.println("Escolha o valor:");
+                System.out.println("Escolha o valor (saldo: "+conta.saldo+"): ");
                 double valor = entrada.nextDouble();
 
                 System.out.println("Você tem certeza? (sim ou nao)");
@@ -73,13 +73,13 @@ public class Terminal {
                     System.out.println("Depósito realizado!");
                     System.out.println("Saldo Atual: " + conta.saldo);
                 } else {
-                    System.out.println("Operação cancelada.");
+                    System.out.println("\nOperação cancelada.\n");
                     continue; // volta pro menu
                 }
             }
             if (funcao == 2) {
 
-                System.out.println("Escolha o valor:");
+                System.out.println("Escolha o valor (saldo: "+ conta.saldo+"): ");
                 double valor = entrada.nextDouble();
 
                 System.out.println("Você tem certeza? (sim ou nao)");
@@ -90,13 +90,13 @@ public class Terminal {
                     System.out.println("Saque realizado! (" + valor + ")");
                     System.out.println("Saldo Atual: " + conta.saldo);
                 } else {
-                    System.out.println("Operação cancelada.\n");
+                    System.out.println("\nOperação cancelada.\n");
                     continue;
 
                     }
                 }
                 if (funcao == 3) {
-                    System.out.println("\n--- Cliente ---");
+                    System.out.println("\n--- Cliente ---\n");
                     System.out.println("Nome: " + conta.titular.nome);
                     System.out.println("CPF: " + conta.titular.cpf);
                     continue;
