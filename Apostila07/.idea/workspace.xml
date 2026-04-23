@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c849b9e-1e84-4d17-98a8-faca9e862f88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/on/com/fiap/view/ExemploCondicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/on/com/fiap/view/ExemploCondicaoEncadeada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/on/com/fiap/view/ExemploConversao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/on/com/fiap/view/ExemploSwitch.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3CjPeXX3lpxWzWLtHfiJhxweQay" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ExemploCondicao.executor": "Run",
+    "Application.ExemploCondicaoEncadeada.executor": "Run",
+    "Application.ExemploSwitch.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "ajuste"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c849b9e-1e84-4d17-98a8-faca9e862f88" name="Changes" comment="" />
+      <created>1776896116973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776896116973</updated>
+    </task>
+    <servers />
+  </component>
+</project>
